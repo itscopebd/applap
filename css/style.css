@@ -1,3 +1,38 @@
-*{
+body{
     font-family: 'Poppins', sans-serif;
 }
+
+:root{
+    --primary-color:#242f51;
+    --btn-color: #3900F5;
+}
+
+/*==========================
+ header css start here
+ =============================*/
+ header{
+    height: 75px;
+  }
+  
+header .navbar-brand{
+    font-size: 30px !important;
+    font-weight: 800;
+    color: #fcae61 !important;
+
+}
+header .navbar-brand span{
+    color: var(--primary-color) !important;
+}
+
+header .nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0.5rem 1.3rem !important;
+}
+header .nav-link:hover,header .nav-link.active {
+    color: #fcae61 !important;
+}
+
+/*==========================
+ header css end here
+ =============================*/
