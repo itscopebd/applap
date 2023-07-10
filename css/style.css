@@ -1,46 +1,54 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
-:root{
-    --primary-color:#242f51;
+:root {
+    --primary-color: #242f51;
     --btn-color: #3900F5;
 }
-.primary__color{
+
+.primary__color {
     color: var(--primary-color);
 }
-.secondary__color{
+
+.secondary__color {
     color: var(--btn-color);
 }
-/* .hover_color{
-    color: #fcae61;
-} */
-.secondary__color:hover{
+
+.secondary__color:hover {
     color: #fcae61;
 }
+
+.section__gap{
+    margin: 90px 0;
+}
+
 /*==========================
  header css start here
  =============================*/
- header{
+header {
     height: 75px;
-  }
-  
-header .navbar-brand{
+}
+
+header .navbar-brand {
     font-size: 30px !important;
     font-weight: 800;
     color: #fcae61 !important;
 
 }
-header .navbar-brand span{
+
+header .navbar-brand span {
     color: var(--primary-color) !important;
 }
 
-header .nav-link{
+header .nav-link {
     font-size: 16px;
     font-weight: 600;
     padding: 0.5rem 1.3rem !important;
 }
-header .nav-link:hover,header .nav-link.active {
+
+header .nav-link:hover,
+header .nav-link.active {
     color: #fcae61 !important;
 }
 
@@ -51,32 +59,105 @@ header .nav-link:hover,header .nav-link.active {
 /*==========================
  Hero Section css start here
 =============================*/
-#hero{
-    padding: 50px;
+#hero {
+    padding: 50px 0;
+    background-image: url('../image/hero-bg.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    width: 100%;
+    background-size: contain;
 }
-#hero .sub__title{
-background-color: #E1E8EB;
-/* padding: 5px 5px; */
-border-radius: 5px;
-font-size: 18px;
-display: flex;
-align-items: center;
-gap: 5px;
-color: var(--primary-color);
+
+#hero .sub__title {
+    background-color: #E1E8EB;
+    /* padding: 5px 5px; */
+    border-radius: 8px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+   
+    gap: 10px;
+    color: var(--primary-color);
 
 }
-#hero .custom__check{
+
+#hero .custom__check {
     color: #fcae61;
-    font-size: 25px;
-    padding: 4px;
+    font-size: 35px;
+    /* padding: 4px; */
+    margin-left: -10px;
 }
-#hero .title{
-font-size: 60px;
-color: var(--primary-color);
-font-weight: 400;
+
+#hero .title {
+    font-size: 60px;
+    color: var(--primary-color);
+    font-weight: 400;
+    margin: 10px 0;
 
 }
+.circle{
+    color: #F96E6F;
+    position: absolute;
+}
+.circle__one{
+    color: #D4CBFB;
+    top: 5%;
+    left: 15%;
+}
+.circle__two{
+    top: 5%;
+    right: 30%;
+}
+.circle__three{
+    bottom: 5%;
+    right: 10%;
+}
+.circle__four{
+    bottom: 10%;
+    left: 17%;
+}
+
+.cors__one{
+    bottom: 15%;
+    left: 50%;
+    position: absolute;  
+}
+.cors__two{
+    bottom: 8%;
+    left: 5%;
+    position: absolute;  
+}
+.square{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    color: #D4CBFB;
+}
+.plus{
+    position: absolute;
+    left: 30%;
+    bottom: 3%;
+}
+
 
 /*==========================
  Hero Section css end here
+ =============================*/
+
+
+ /*==========================
+ services Section css end here
+ =============================*/
+
+#services .title{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom:40px;
+}
+
+
+ /*==========================
+ services Section css end here
  =============================*/
