@@ -21,8 +21,24 @@ body {
 
 .section__gap{
     margin: 90px 0;
+    overflow: hidden;
 }
 
+.section__title{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--primary-color);
+
+}
+.sub__title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.des{
+    font-size: 16px;
+    color: #616368;
+}
 /*==========================
  header css start here
  =============================*/
